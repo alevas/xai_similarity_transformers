@@ -23,5 +23,5 @@ As also described in the paper, the following models can be used with the code a
 * `GPT-Neo` 
 
 ## LRP 
-The BiLRP implementation is 
+The BiLRP implementation is TODO
 The lines relevant to these code modifications are marked with `# xai_impl` in both `src/models/xai_bert.py` and `src/models/xai_gpt_neo.py` modules. The implemented changes are done in the Attention heads, the LayerNorm layers and the GELU activation function (applicable for models based on BERT only).
