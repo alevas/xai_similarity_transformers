@@ -1,5 +1,5 @@
 # xai_similarity_transformers
-Explaining Text Similarity in Transformer Models 
+The implementation and examples for the paper (Explaining Text Similarity in Transformer Models)[https://arxiv.org/abs/2405.06604], accepted to NAACL 2024.
 
 ## Usage instructions
 **Python version: 3.11**
