@@ -23,5 +23,23 @@ As also described in the paper, the following models can be used with the code a
 * `GPT-Neo` 
 
 ## LRP 
-The BiLRP implementation is TODO
 The lines relevant to these code modifications are marked with `# xai_impl` in both `src/models/xai_bert.py` and `src/models/xai_gpt_neo.py` modules. The implemented changes are done in the Attention heads, the LayerNorm layers and the GELU activation function (applicable for models based on BERT only).
+
+## Citation
+
+@inproceedings{vasileiou-eberle-2024-explaining,
+    title = "Explaining Text Similarity in Transformer Models",
+    author = "Vasileiou, Alexandros  and
+      Eberle, Oliver",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.435/",
+    doi = "10.18653/v1/2024.naacl-long.435",
+    pages = "7859--7873",
+}
